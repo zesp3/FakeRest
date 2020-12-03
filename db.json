@@ -1,37 +1,14 @@
-[
-    {
-        "title": "tested1",
-        "date": "2020-11-23T13:43:21.600878Z",
-        "source": "talar",
-        "cont_art": "ja@mail.com",
-        "picture": "zdjeice"
-    },
-    {
-        "title": "test23",
-        "date": "2020-11-23T13:44:38.333168Z",
-        "source": "talar2",
-        "cont_art": "ja2@mail.com",
-        "picture": "zdjeice"
-    },
-    {
-        "title": "hej",
-        "date": "2020-11-23T17:59:01.236054Z",
-        "source": "hejka",
-        "cont_art": "",
-        "picture": "zdjeice"
-    },
-    {
-        "title": "hej2",
-        "date": "2020-11-23T17:59:21.156550Z",
-        "source": "faw2",
-        "cont_art": "",
-        "picture": "zdjeice"
-    },
-    {
-        "title": "hej2",
-        "date": "2020-12-01T22:30:11.206971Z",
-        "source": "faw2",
-        "cont_art": "qadfadf",
-        "picture": "zdjeice"
-    }
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
